@@ -1,0 +1,560 @@
+MEMORY LOAD : 9178068
+NO. 1 PC 0x0000000000400544 "mov    eax, <rel> dword ptr [0x000000000060103c]"
+=>EXECUTION TIMES
+2000000
+=>BACKTRACE
+#0   0x0000000000400544 in sub_fun at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:5]
+#1   0x00000000004005ab in main at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:17]
+#2   0x00007f18e3295553 in __libc_start_main at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#3   0x0000000000400484 in <MISSING> at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#4   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#5   0x0000000000000000 in PROCESS[67791]_ROOT_CTXT at [<NULL>:0]
+
+
+NO. 2 PC 0x0000000000400553 "add    dword ptr [rbp-0x04], 0x01"
+=>EXECUTION TIMES
+2000000
+=>BACKTRACE
+#0   0x0000000000400553 in sub_fun at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:4]
+#1   0x00000000004005ab in main at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:17]
+#2   0x00007f18e3295553 in __libc_start_main at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#3   0x0000000000400484 in <MISSING> at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#4   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#5   0x0000000000000000 in PROCESS[67791]_ROOT_CTXT at [<NULL>:0]
+
+
+NO. 3 PC 0x0000000000400557 "cmp    dword ptr [rbp-0x04], 0x63"
+=>EXECUTION TIMES
+2000000
+=>BACKTRACE
+#0   0x0000000000400557 in sub_fun at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:4]
+#1   0x00000000004005ab in main at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:17]
+#2   0x00007f18e3295553 in __libc_start_main at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#3   0x0000000000400484 in <MISSING> at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#4   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#5   0x0000000000000000 in PROCESS[67791]_ROOT_CTXT at [<NULL>:0]
+
+
+NO. 4 PC 0x0000000000400557 "cmp    dword ptr [rbp-0x04], 0x63"
+=>EXECUTION TIMES
+1000000
+=>BACKTRACE
+#0   0x0000000000400557 in sub_fun at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:4]
+#1   0x0000000000400576 in fun at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:11]
+#2   0x0000000000400598 in main at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:15]
+#3   0x00007f18e3295553 in __libc_start_main at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#4   0x0000000000400484 in <MISSING> at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#5   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#6   0x0000000000000000 in PROCESS[67791]_ROOT_CTXT at [<NULL>:0]
+
+
+NO. 5 PC 0x0000000000400544 "mov    eax, <rel> dword ptr [0x000000000060103c]"
+=>EXECUTION TIMES
+1000000
+=>BACKTRACE
+#0   0x0000000000400544 in sub_fun at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:5]
+#1   0x0000000000400576 in fun at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:11]
+#2   0x0000000000400598 in main at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:15]
+#3   0x00007f18e3295553 in __libc_start_main at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#4   0x0000000000400484 in <MISSING> at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#5   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#6   0x0000000000000000 in PROCESS[67791]_ROOT_CTXT at [<NULL>:0]
+
+
+NO. 6 PC 0x0000000000400553 "add    dword ptr [rbp-0x04], 0x01"
+=>EXECUTION TIMES
+1000000
+=>BACKTRACE
+#0   0x0000000000400553 in sub_fun at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:4]
+#1   0x0000000000400576 in fun at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:11]
+#2   0x0000000000400598 in main at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:15]
+#3   0x00007f18e3295553 in __libc_start_main at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#4   0x0000000000400484 in <MISSING> at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#5   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#6   0x0000000000000000 in PROCESS[67791]_ROOT_CTXT at [<NULL>:0]
+
+
+NO. 7 PC 0x0000000000400557 "cmp    dword ptr [rbp-0x04], 0x63"
+=>EXECUTION TIMES
+20000
+=>BACKTRACE
+#0   0x0000000000400557 in sub_fun at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:4]
+#1   0x00000000004005ab in main at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:17]
+#2   0x00007f18e3295553 in __libc_start_main at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#3   0x0000000000400484 in <MISSING> at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#4   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#5   0x0000000000000000 in PROCESS[67791]_ROOT_CTXT at [<NULL>:0]
+
+
+NO. 8 PC 0x000000000040055f "ret"
+=>EXECUTION TIMES
+20000
+=>BACKTRACE
+#0   0x000000000040055f in sub_fun at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:8]
+#1   0x00000000004005ab in main at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:17]
+#2   0x00007f18e3295553 in __libc_start_main at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#3   0x0000000000400484 in <MISSING> at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#4   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#5   0x0000000000000000 in PROCESS[67791]_ROOT_CTXT at [<NULL>:0]
+
+
+NO. 9 PC 0x00000000004005b0 "add    dword ptr [rbp-0x04], 0x01"
+=>EXECUTION TIMES
+20000
+=>BACKTRACE
+#0   0x00000000004005b0 in main at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:16]
+#1   0x00007f18e3295553 in __libc_start_main at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#2   0x0000000000400484 in <MISSING> at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#3   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#4   0x0000000000000000 in PROCESS[67791]_ROOT_CTXT at [<NULL>:0]
+
+
+NO. 10 PC 0x000000000040055e "pop    rbp"
+=>EXECUTION TIMES
+20000
+=>BACKTRACE
+#0   0x000000000040055e in sub_fun at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:8]
+#1   0x00000000004005ab in main at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:17]
+#2   0x00007f18e3295553 in __libc_start_main at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#3   0x0000000000400484 in <MISSING> at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#4   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#5   0x0000000000000000 in PROCESS[67791]_ROOT_CTXT at [<NULL>:0]
+
+
+MEMORY STORE : 3101601
+NO. 1 PC 0x000000000040054d "mov    <rel> dword ptr [0x000000000060103c], eax"
+=>EXECUTION TIMES
+2000000
+=>BACKTRACE
+#0   0x000000000040054d in sub_fun at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:5]
+#1   0x00000000004005ab in main at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:17]
+#2   0x00007f18e3295553 in __libc_start_main at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#3   0x0000000000400484 in <MISSING> at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#4   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#5   0x0000000000000000 in PROCESS[67791]_ROOT_CTXT at [<NULL>:0]
+
+
+
+NO. 2 PC 0x000000000040054d "mov    <rel> dword ptr [0x000000000060103c], eax"
+=>EXECUTION TIMES
+1000000
+=>BACKTRACE
+#0   0x000000000040054d in sub_fun at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:5]
+#1   0x0000000000400576 in fun at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:11]
+#2   0x0000000000400598 in main at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:15]
+#3   0x00007f18e3295553 in __libc_start_main at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#4   0x0000000000400484 in <MISSING> at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#5   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#6   0x0000000000000000 in PROCESS[67791]_ROOT_CTXT at [<NULL>:0]
+
+
+
+NO. 3 PC 0x00000000004005ab "call   0x0000000000400537"
+=>EXECUTION TIMES
+20000
+=>BACKTRACE
+#0   0x00000000004005ab in main at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:17]
+#1   0x00007f18e3295553 in __libc_start_main at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#2   0x0000000000400484 in <MISSING> at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#3   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#4   0x0000000000000000 in PROCESS[67791]_ROOT_CTXT at [<NULL>:0]
+
+
+
+NO. 4 PC 0x0000000000400537 "push   rbp"
+=>EXECUTION TIMES
+20000
+=>BACKTRACE
+#0   0x0000000000400537 in sub_fun at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:3]
+#1   0x00000000004005ab in main at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:17]
+#2   0x00007f18e3295553 in __libc_start_main at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#3   0x0000000000400484 in <MISSING> at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#4   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#5   0x0000000000000000 in PROCESS[67791]_ROOT_CTXT at [<NULL>:0]
+
+
+
+NO. 5 PC 0x000000000040053b "mov    dword ptr [rbp-0x04], 0x00000000"
+=>EXECUTION TIMES
+20000
+=>BACKTRACE
+#0   0x000000000040053b in sub_fun at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:4]
+#1   0x00000000004005ab in main at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:17]
+#2   0x00007f18e3295553 in __libc_start_main at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#3   0x0000000000400484 in <MISSING> at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#4   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#5   0x0000000000000000 in PROCESS[67791]_ROOT_CTXT at [<NULL>:0]
+
+
+
+NO. 6 PC 0x0000000000400537 "push   rbp"
+=>EXECUTION TIMES
+10000
+=>BACKTRACE
+#0   0x0000000000400537 in sub_fun at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:3]
+#1   0x0000000000400576 in fun at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:11]
+#2   0x0000000000400598 in main at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:15]
+#3   0x00007f18e3295553 in __libc_start_main at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#4   0x0000000000400484 in <MISSING> at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#5   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#6   0x0000000000000000 in PROCESS[67791]_ROOT_CTXT at [<NULL>:0]
+
+
+
+NO. 7 PC 0x000000000040053b "mov    dword ptr [rbp-0x04], 0x00000000"
+=>EXECUTION TIMES
+10000
+=>BACKTRACE
+#0   0x000000000040053b in sub_fun at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:4]
+#1   0x0000000000400576 in fun at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:11]
+#2   0x0000000000400598 in main at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:15]
+#3   0x00007f18e3295553 in __libc_start_main at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#4   0x0000000000400484 in <MISSING> at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#5   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#6   0x0000000000000000 in PROCESS[67791]_ROOT_CTXT at [<NULL>:0]
+
+
+
+NO. 8 PC 0x0000000000400576 "call   0x0000000000400537"
+=>EXECUTION TIMES
+10000
+=>BACKTRACE
+#0   0x0000000000400576 in fun at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:11]
+#1   0x0000000000400598 in main at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:15]
+#2   0x00007f18e3295553 in __libc_start_main at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#3   0x0000000000400484 in <MISSING> at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#4   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#5   0x0000000000000000 in PROCESS[67791]_ROOT_CTXT at [<NULL>:0]
+
+
+
+NO. 9 PC 0x00007f1b19177ab9 "mov    qword ptr [rdx+rbx], rcx"
+=>EXECUTION TIMES
+1192
+=>BACKTRACE
+#0   0x00007f1b19177ab9 in _dl_relocate_object at [:0]
+#1   0x00007f1b19170995 in dl_main at [:0]
+#2   0x00007f1b1918400c in _dl_sysdep_start at [:0]
+#3   0x00007f1b1916dbcc in _dl_start at [:0]
+#4   0x00007f1b1916d143 in _start at [:0]
+#5   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#6   0x0000000000000000 in PROCESS[67791]_ROOT_CTXT at [<NULL>:0]
+
+
+
+NO. 10 PC 0x00007f1b191757a3 "mov    qword ptr [rsp+0x60], rax"
+=>EXECUTION TIMES
+163
+=>BACKTRACE
+#0   0x00007f1b191757a3 in do_lookup_x at [:0]
+#1   0x00007f1b1917609a in _dl_lookup_symbol_x at [:0]
+#2   0x00007f1b19177c21 in _dl_relocate_object at [:0]
+#3   0x00007f1b19170995 in dl_main at [:0]
+#4   0x00007f1b1918400c in _dl_sysdep_start at [:0]
+#5   0x00007f1b1916dbcc in _dl_start at [:0]
+#6   0x00007f1b1916d143 in _start at [:0]
+#7   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#8   0x0000000000000000 in PROCESS[67791]_ROOT_CTXT at [<NULL>:0]
+
+
+
+CONDITIONAL BRANCHES : 3077011
+NO. 1 PC 0x000000000040055b "jle    0x0000000000400544"
+=>EXECUTION TIMES
+2000000
+=>BACKTRACE
+#0   0x000000000040055b in sub_fun at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:4]
+#1   0x00000000004005ab in main at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:17]
+#2   0x00007f18e3295553 in __libc_start_main at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#3   0x0000000000400484 in <MISSING> at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#4   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#5   0x0000000000000000 in PROCESS[67791]_ROOT_CTXT at [<NULL>:0]
+
+
+
+NO. 2 PC 0x000000000040055b "jle    0x0000000000400544"
+=>EXECUTION TIMES
+1000000
+=>BACKTRACE
+#0   0x000000000040055b in sub_fun at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:4]
+#1   0x0000000000400576 in fun at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:11]
+#2   0x0000000000400598 in main at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:15]
+#3   0x00007f18e3295553 in __libc_start_main at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#4   0x0000000000400484 in <MISSING> at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#5   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#6   0x0000000000000000 in PROCESS[67791]_ROOT_CTXT at [<NULL>:0]
+
+
+
+NO. 3 PC 0x00000000004005bb "jle    0x00000000004005a6"
+=>EXECUTION TIMES
+20000
+=>BACKTRACE
+#0   0x00000000004005bb in main at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:16]
+#1   0x00007f18e3295553 in __libc_start_main at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#2   0x0000000000400484 in <MISSING> at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#3   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#4   0x0000000000000000 in PROCESS[67791]_ROOT_CTXT at [<NULL>:0]
+
+
+
+NO. 4 PC 0x000000000040055b "jle    0x0000000000400544"
+=>EXECUTION TIMES
+20000
+=>BACKTRACE
+#0   0x000000000040055b in sub_fun at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:4]
+#1   0x00000000004005ab in main at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:17]
+#2   0x00007f18e3295553 in __libc_start_main at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#3   0x0000000000400484 in <MISSING> at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#4   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#5   0x0000000000000000 in PROCESS[67791]_ROOT_CTXT at [<NULL>:0]
+
+
+
+NO. 5 PC 0x0000000000400586 "jle    0x0000000000400571"
+=>EXECUTION TIMES
+10000
+=>BACKTRACE
+#0   0x0000000000400586 in fun at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:10]
+#1   0x0000000000400598 in main at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:15]
+#2   0x00007f18e3295553 in __libc_start_main at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#3   0x0000000000400484 in <MISSING> at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#4   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#5   0x0000000000000000 in PROCESS[67791]_ROOT_CTXT at [<NULL>:0]
+
+
+
+NO. 6 PC 0x000000000040055b "jle    0x0000000000400544"
+=>EXECUTION TIMES
+10000
+=>BACKTRACE
+#0   0x000000000040055b in sub_fun at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:4]
+#1   0x0000000000400576 in fun at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:11]
+#2   0x0000000000400598 in main at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:15]
+#3   0x00007f18e3295553 in __libc_start_main at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#4   0x0000000000400484 in <MISSING> at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#5   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#6   0x0000000000000000 in PROCESS[67791]_ROOT_CTXT at [<NULL>:0]
+
+
+
+NO. 7 PC 0x00007f1b19177abd "jnbe   0x00007f1b19177aa8"
+=>EXECUTION TIMES
+1192
+=>BACKTRACE
+#0   0x00007f1b19177abd in _dl_relocate_object at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#1   0x00007f1b19170995 in dl_main at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#2   0x00007f1b1918400c in _dl_sysdep_start at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#3   0x00007f1b1916dbcc in _dl_start at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#4   0x00007f1b1916d143 in _start at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#5   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#6   0x0000000000000000 in PROCESS[67791]_ROOT_CTXT at [<NULL>:0]
+
+
+
+NO. 8 PC 0x00007f1b19175fde "jnz    0x00007f1b19175fc8"
+=>EXECUTION TIMES
+965
+=>BACKTRACE
+#0   0x00007f1b19175fde in _dl_lookup_symbol_x at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#1   0x00007f1b19177c21 in _dl_relocate_object at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#2   0x00007f1b19170995 in dl_main at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#3   0x00007f1b1918400c in _dl_sysdep_start at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#4   0x00007f1b1916dbcc in _dl_start at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#5   0x00007f1b1916d143 in _start at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#6   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#7   0x0000000000000000 in PROCESS[67791]_ROOT_CTXT at [<NULL>:0]
+
+
+
+NO. 9 PC 0x00007f1b19185dc4 "jnz    0x00007f1b19185dd3"
+=>EXECUTION TIMES
+934
+=>BACKTRACE
+#0   0x00007f1b19185dc4 in strcmp at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#1   0x00007f1b1917567f in check_match.9525 at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#2   0x00007f1b19175db6 in do_lookup_x at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#3   0x00007f1b1917609a in _dl_lookup_symbol_x at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#4   0x00007f1b19177c21 in _dl_relocate_object at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#5   0x00007f1b19170995 in dl_main at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#6   0x00007f1b1918400c in _dl_sysdep_start at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#7   0x00007f1b1916dbcc in _dl_start at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#8   0x00007f1b1916d143 in _start at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#9   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#10  0x0000000000000000 in PROCESS[67791]_ROOT_CTXT at [<NULL>:0]
+
+
+
+NO. 10 PC 0x00007f1b19185dce "jnz    0x00007f1b19185dc0"
+=>EXECUTION TIMES
+934
+=>BACKTRACE
+#0   0x00007f1b19185dce in strcmp at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#1   0x00007f1b1917567f in check_match.9525 at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#2   0x00007f1b19175db6 in do_lookup_x at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#3   0x00007f1b1917609a in _dl_lookup_symbol_x at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#4   0x00007f1b19177c21 in _dl_relocate_object at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#5   0x00007f1b19170995 in dl_main at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#6   0x00007f1b1918400c in _dl_sysdep_start at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#7   0x00007f1b1916dbcc in _dl_start at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#8   0x00007f1b1916d143 in _start at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#9   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#10  0x0000000000000000 in PROCESS[67791]_ROOT_CTXT at [<NULL>:0]
+
+
+
+UNCONDITIONAL BRANCHES : 30793
+NO. 1 PC 0x0000000000400542 "jmp    0x0000000000400557"
+=>EXECUTION TIMES
+20000
+=>BACKTRACE
+#0   0x0000000000400542 in sub_fun at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:4]
+#1   0x00000000004005ab in main at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:17]
+#2   0x00007f18e3295553 in __libc_start_main at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#3   0x0000000000400484 in <MISSING> at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#4   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#5   0x0000000000000000 in PROCESS[67791]_ROOT_CTXT at [<NULL>:0]
+
+
+
+NO. 2 PC 0x0000000000400542 "jmp    0x0000000000400557"
+=>EXECUTION TIMES
+10000
+=>BACKTRACE
+#0   0x0000000000400542 in sub_fun at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:4]
+#1   0x0000000000400576 in fun at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:11]
+#2   0x0000000000400598 in main at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:15]
+#3   0x00007f18e3295553 in __libc_start_main at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#4   0x0000000000400484 in <MISSING> at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#5   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#6   0x0000000000000000 in PROCESS[67791]_ROOT_CTXT at [<NULL>:0]
+
+
+
+NO. 3 PC 0x00007f1b191756a0 "jmp    0x00007f1b1917566a"
+=>EXECUTION TIMES
+156
+=>BACKTRACE
+#0   0x00007f1b191756a0 in check_match.9525 at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#1   0x00007f1b19175e53 in do_lookup_x at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#2   0x00007f1b1917609a in _dl_lookup_symbol_x at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#3   0x00007f1b19177c21 in _dl_relocate_object at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#4   0x00007f1b19170995 in dl_main at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#5   0x00007f1b1918400c in _dl_sysdep_start at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#6   0x00007f1b1916dbcc in _dl_start at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#7   0x00007f1b1916d143 in _start at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#8   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#9   0x0000000000000000 in PROCESS[67791]_ROOT_CTXT at [<NULL>:0]
+
+
+
+NO. 4 PC 0x00007f1b19184a5b "jmp    0x00007f1b19184a69"
+=>EXECUTION TIMES
+144
+=>BACKTRACE
+#0   0x00007f1b19184a5b in __strsep at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#1   0x00007f1b1917386a in fillin_rpath at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#2   0x00007f1b19173c78 in decompose_rpath at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#3   0x00007f1b191742d0 in _dl_init_paths at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#4   0x00007f1b1916f493 in dl_main at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#5   0x00007f1b1918400c in _dl_sysdep_start at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#6   0x00007f1b1916dbcc in _dl_start at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#7   0x00007f1b1916d143 in _start at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#8   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#9   0x0000000000000000 in PROCESS[67791]_ROOT_CTXT at [<NULL>:0]
+
+
+
+NO. 5 PC 0x00007f1b19175d56 "jmp    0x00007f1b19175d6d"
+=>EXECUTION TIMES
+78
+=>BACKTRACE
+#0   0x00007f1b19175d56 in do_lookup_x at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#1   0x00007f1b1917609a in _dl_lookup_symbol_x at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#2   0x00007f1b19177c21 in _dl_relocate_object at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#3   0x00007f1b19170995 in dl_main at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#4   0x00007f1b1918400c in _dl_sysdep_start at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#5   0x00007f1b1916dbcc in _dl_start at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#6   0x00007f1b1916d143 in _start at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#7   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#8   0x0000000000000000 in PROCESS[67791]_ROOT_CTXT at [<NULL>:0]
+
+
+
+NO. 6 PC 0x00007f1b19175f71 "jmp    0x00007f1b19175dfc"
+=>EXECUTION TIMES
+73
+=>BACKTRACE
+#0   0x00007f1b19175f71 in do_lookup_x at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#1   0x00007f1b1917609a in _dl_lookup_symbol_x at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#2   0x00007f1b19177c21 in _dl_relocate_object at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#3   0x00007f1b19170995 in dl_main at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#4   0x00007f1b1918400c in _dl_sysdep_start at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#5   0x00007f1b1916dbcc in _dl_start at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#6   0x00007f1b1916d143 in _start at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#7   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#8   0x0000000000000000 in PROCESS[67791]_ROOT_CTXT at [<NULL>:0]
+
+
+
+NO. 7 PC 0x00007f1b191756a0 "jmp    0x00007f1b1917566a"
+=>EXECUTION TIMES
+18
+=>BACKTRACE
+#0   0x00007f1b191756a0 in check_match.9525 at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#1   0x00007f1b19175e53 in do_lookup_x at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#2   0x00007f1b1917609a in _dl_lookup_symbol_x at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#3   0x00007f1b19177c21 in _dl_relocate_object at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#4   0x00007f1b191703d5 in dl_main at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#5   0x00007f1b1918400c in _dl_sysdep_start at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#6   0x00007f1b1916dbcc in _dl_start at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#7   0x00007f1b1916d143 in _start at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#8   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#9   0x0000000000000000 in PROCESS[67791]_ROOT_CTXT at [<NULL>:0]
+
+
+
+NO. 8 PC 0x00007f1b19177e86 "jmp    0x00007f1b19177c42"
+=>EXECUTION TIMES
+13
+=>BACKTRACE
+#0   0x00007f1b19177e86 in _dl_relocate_object at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#1   0x00007f1b19170995 in dl_main at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#2   0x00007f1b1918400c in _dl_sysdep_start at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#3   0x00007f1b1916dbcc in _dl_start at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#4   0x00007f1b1916d143 in _start at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#5   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#6   0x0000000000000000 in PROCESS[67791]_ROOT_CTXT at [<NULL>:0]
+
+
+
+NO. 9 PC 0x00007f1b19177f44 "jmp    0x00007f1b19177d30"
+=>EXECUTION TIMES
+12
+=>BACKTRACE
+#0   0x00007f1b19177f44 in _dl_relocate_object at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#1   0x00007f1b19170995 in dl_main at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#2   0x00007f1b1918400c in _dl_sysdep_start at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#3   0x00007f1b1916dbcc in _dl_start at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#4   0x00007f1b1916d143 in _start at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#5   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#6   0x0000000000000000 in PROCESS[67791]_ROOT_CTXT at [<NULL>:0]
+
+
+
+NO. 10 PC 0x00007f1b19175d56 "jmp    0x00007f1b19175d6d"
+=>EXECUTION TIMES
+9
+=>BACKTRACE
+#0   0x00007f1b19175d56 in do_lookup_x at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#1   0x00007f1b1917609a in _dl_lookup_symbol_x at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#2   0x00007f1b19177c21 in _dl_relocate_object at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#3   0x00007f1b191703d5 in dl_main at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#4   0x00007f1b1918400c in _dl_sysdep_start at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#5   0x00007f1b1916dbcc in _dl_start at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#6   0x00007f1b1916d143 in _start at [/afs/unity.ncsu.edu/users/a/asfirodi/DrCCTProf/p0_test_app.c:0]
+#7   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#8   0x0000000000000000 in PROCESS[67791]_ROOT_CTXT at [<NULL>:0]
+
+
+
